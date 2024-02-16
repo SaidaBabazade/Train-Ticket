@@ -1,12 +1,10 @@
 package az.trainticket.TrainTicket.entity;
 
-public class Admin {
-    private String fName;
-    private String lName;
-    private String pWord;
-    private String addR;
-    private String mailId;
-    private long phNo;
+public class User {
+    private  String fName;
+    private  String lName;
+    private  String pWord;
+    private  String addR;
 
     public String getfName() {
         return fName;
@@ -55,4 +53,8 @@ public class Admin {
     public void setPhNo(long phNo) {
         this.phNo = phNo;
     }
+
+    private  String mailId;
+    private  long phNo;
+
 }
